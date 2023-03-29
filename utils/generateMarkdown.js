@@ -59,26 +59,34 @@ function generateMarkdown(data) {
   return `
   # ${data.Title}
   ${renderLicenseBadge(data.License)}
+
   ## Description
   ${data.Description}
+
   ## Table of Contents
-  *[Installation](#installation)\
-  *[Usage](#usage)\
-  *[Contributing](#contributing)\
-  *[Testing](#testing)\
-  *[License](#license)\
-  *[Questions](#questions)\
+  *[Installation](#installation)  
+  *[Usage](#usage)  
+  *[Contributing](#contributing)  
+  *[Testing](#testing)  
+  *[License](#license)  
+  *[Questions](#questions)  
+
   ## Installation
   ${data.Installation}
+
   ## Usage
   ${data.Usage}
+
   ## Contributing
   ${data.Contribution}
+
   ## Testing
   ${data.Test}
+
   ## License
   ${renderLicenseSection(data.License)}
   ${renderLicenseLink(data.License)}
+  
   ## Questions
   If you have any question regarding this application contact me via Github at https://github.com/${data.Github} or via email at ${data.Email}.
 `;
