@@ -23,7 +23,8 @@
   To contribute to this app contact me via Github
   
   ## Testing
-  Please view the following video:
+  Please view the following walkthrough video:
+  https://drive.google.com/file/d/1OPJYJcaOVVCd58UBN8toyY0mkpXGlFwB/view
   
   ## License
   License: MIT
